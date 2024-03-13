@@ -21,6 +21,5 @@ class RegularShowCast {
         image = castImage
         
     }
-    
 }
 
