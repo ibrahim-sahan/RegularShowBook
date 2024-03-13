@@ -15,7 +15,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var chosenCast : RegularShowCast?
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -66,6 +65,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
         }
     }
-    
 }
 
