@@ -15,11 +15,16 @@ class detailsVC: UIViewController {
     
     @IBOutlet weak var jobLabel: UILabel!
     
+    var selectedCast : RegularShowCast?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = selectedCast?.name
+        jobLabel.text = selectedCast?.job
+        imageView.image = selectedCast?.image
+        
     }
     
     
